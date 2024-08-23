@@ -46,7 +46,7 @@ const Gallery = () => {
     const navigate = useNavigate();
 
     const handleButtonClick = () => {
-        navigate('/projects');
+        navigate('/login');
     };
 
     return (
