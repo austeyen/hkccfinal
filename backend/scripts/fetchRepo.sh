@@ -69,10 +69,6 @@ if [ $? -ne 0 ]; then
 fi
 res=$(git stash pop)
 
-if [[ $? -ne 0  &&  $res -ne  ]]; then
-    echo "Error: $res"
-    # exit 1
-fi
 
 echo "Branch successfully switched back to main"
 
